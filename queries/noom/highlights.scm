@@ -1,6 +1,6 @@
 (comment) @comment
 ["+" "-" "*" "/" "|>" ">" ">=" "<" "<=" "==" "!=" "!" "=" ".."] @operator
-["in"] @keyword
+["let" "in"] @keyword
 ["for"] @repeat
 ["if" "else"] @conditional
 [(break_stmt) "return"] @keyword.return
