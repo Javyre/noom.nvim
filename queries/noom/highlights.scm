@@ -1,5 +1,5 @@
 (comment) @comment
-["+" "-" "*" "/" "|>" ">" ">=" "<" "<=" "==" "!=" "!" "="] @operator
+["+" "-" "*" "/" "|>" ">" ">=" "<" "<=" "==" "!=" "!" "=" ".."] @operator
 ["in"] @keyword
 ["for"] @repeat
 ["if" "else"] @conditional
