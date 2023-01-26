@@ -3,6 +3,7 @@
 ["let" "in"] @keyword
 ["for"] @repeat
 ["if" "else"] @conditional
+["and" "or"] @keyword.operator
 [(break_stmt) "return"] @keyword.return
 [";" "." "," ":"] @punctuation.delimiter
 [".(" "(" ")" ".{" "{" "}"] @punctuation.bracket
