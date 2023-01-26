@@ -13,5 +13,5 @@
 (expr_nil) @constant.builtin
 (expr_number) @number
 (expr_bool) @boolean
-(builtin_fn) @constant.builtin
+["@range" (builtin_fn)] @constant.builtin
 (require) @include
