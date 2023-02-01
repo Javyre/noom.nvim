@@ -4,9 +4,10 @@
 ["for"] @repeat
 ["if" "else"] @conditional
 ["and" "or"] @keyword.operator
+"fn" @keyword.function
 [(break_stmt) "return"] @keyword.return
 [";" "." "," ":"] @punctuation.delimiter
-[".(" "(" ")" ".{" "{" "}" "[" "]"] @punctuation.bracket
+["(" ")" ".{" "{" "}" "[" "]"] @punctuation.bracket
 (expr_string) @string
 (string_esc) @string.escape
 (expr_tag) @symbol
